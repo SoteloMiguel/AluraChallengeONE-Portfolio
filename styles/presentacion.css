@@ -1,0 +1,127 @@
+.presentacion{
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+  padding: 1rem;
+  text-align: justify;
+}
+.presentacion__texto{
+  width: 100%;
+}
+.presentacion__titulo{
+  width: 100%;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+.presentacion__subtitulo{
+  width: 100%;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-top: 1.2rem;
+  text-align: center;
+  color: var(--Font-color-titulo-secciones);
+}
+.presentacion__parrafo{
+  width: 100%;
+  font-family: var(--font-family-texto);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin: 3rem 0;
+  text-align: justify;
+  word-spacing: .15rem;
+}
+.presentacion__imagen{
+  text-align: center;
+  width: 100%;
+}
+.presentacion__img{
+  border-radius: 30%;
+  width: 50%;
+  height: auto;
+}
+
+.presentacion__nav{
+  width: 100%;
+}
+.presentacion__links{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 100%;
+}
+.presentacion__link {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.presentacion__item:hover {
+  transform: scale(1.5);
+  transition: all .8s;
+  
+}
+
+.fa-arrow-up-right-from-square{
+  color: #cab49b;
+  font-size: 1rem;
+  margin: .3rem;
+}
+.acercaDe__img{
+  width: 40%;
+}
+
+/* MEDIA Min 577px */
+@media screen and (min-width: 577px){
+  .presentacion{
+    flex-direction: row;
+    margin-top: 12rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  .presentacion__texto{
+    width: 70%;
+  }
+  .presentacion__titulo{
+    font-size: 4.5rem;
+    line-height: 6rem;
+  }
+  .presentacion__subtitulo{
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .presentacion__parrafo{
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .presentacion__imagen{
+    text-align: center;
+    width: 30%;  
+  }
+  .presentacion__img{
+    border-radius: 30%;
+  }
+  
+  .presentacion__nav{
+    width: 100%;
+  }
+  .presentacion__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+  }
+  .presentacion__link {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .fa-arrow-up-right-from-square{
+    color: #cab49b;
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .acercaDe__fotografia{
+    width: 50%;
+  }
+}

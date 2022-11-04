@@ -1,0 +1,16 @@
+.experiencia{
+  width: 100%;
+  padding: 1rem;
+}
+.experiencia__subtitulo{
+  color: var(--Font-color-titulo-secciones);
+}
+
+
+
+/* MEDIA Min 577px */
+@media screen and (min-width: 577px){
+  .experiencia__subtitulo{
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,98 @@
+.formacion{
+  width: 100%;
+  padding: 1rem;
+}
+.formacion__subtitulo{
+  color: var(--Font-color-titulo-secciones);
+}
+.formacion__container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  width: 100%;
+}
+.formacion__card{
+  background-color: #eceff1;
+  text-align: center;
+  margin: .3rem;
+  padding: .5rem;
+  width: 150px;
+  height: auto;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px #6a6e70;
+  border-radius: 5px;
+}
+.formacion__card:hover{
+  transform: scale(1.5);
+  transition: all .8s;
+}
+.formacion__img-container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+.oracleAlura{
+  background-image: url(../assets/img/LOGO-oracleAlura-es.svg);
+}
+.ispc{
+  background-image: url(../assets/img/Logo-ispc.svg);
+}
+.fcc{
+  background-image: url(../assets/img/fcc_secondary_large.svg);
+}
+.linkedIn{
+  background-image: url(../assets/img/LinkedIn_Learning_Logo.svg);
+}
+.sololearn{
+  background-image: url(../assets/img/SoloLearn_logo.svg);
+}
+.udemy{
+  background-image: url(../assets/img/Udemy_logo.svg);
+}
+.google{
+  background-image: url(../assets/img/Google-activate.svg);
+}
+.normal10{
+  background-image: url(../assets/img/Normal-10.png);
+}
+.formacion__img-container{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.formacion-descripcion{
+  color: var(--Font-color-titulo-formacion);
+  font-size: .6rem;
+  margin: .2rem;
+}
+
+/* MEDIA Min 577px */
+@media screen and (min-width: 577px){
+  .formacion__subtitulo{
+    font-size: 3rem;
+  }
+  .formacion__card{
+    margin: 2.3rem;
+    width: 350px;
+    height: auto;
+    padding: 1rem;
+  }
+  .formacion__card:hover{
+    transform: scale(1.5);
+  }
+  .formacion__img{
+    width: 200px;
+    height: 217.36px;
+  }
+  .formacion-descripcion{
+    color: var(--Font-colo/* MEDIA Min 577px */r-titulo-formacion);
+    font-size: 2rem;
+    margin: .2rem;
+  }
+
+}

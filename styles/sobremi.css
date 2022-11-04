@@ -1,0 +1,28 @@
+.sobreMi{
+  padding: 1rem;
+}
+.sobreMi__subtitulo{
+  color: var(--Font-color-titulo-secciones);
+}
+.sobreMi__parrafo{
+  font-family: var(--font-family-texto);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin: 3rem 0 2rem;
+  text-align: justify;
+  word-spacing: .15rem;
+}
+
+
+/* MEDIA Min 577px */
+@media screen and (min-width: 577px){
+  .sobreMi__subtitulo{
+    font-size: 3rem;
+  }
+
+  .sobreMi__parrafo{
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+}
