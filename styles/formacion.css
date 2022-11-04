@@ -34,6 +34,9 @@
   justify-content: center;
   align-items: center;
   height: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .oracleAlura{
   background-image: url(../assets/img/LOGO-oracleAlura-es.svg);
@@ -59,16 +62,12 @@
 .normal10{
   background-image: url(../assets/img/Normal-10.png);
 }
-.formacion__img-container{
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
 
-.formacion-descripcion{
+.formacion-descripcion,
+.formacion-descripcion-instituto{
   color: var(--Font-color-titulo-formacion);
   font-size: .6rem;
-  margin: .2rem;
+  height: 15%;
 }
 
 /* MEDIA Min 577px */
@@ -89,10 +88,11 @@
     width: 200px;
     height: 217.36px;
   }
-  .formacion-descripcion{
-    color: var(--Font-colo/* MEDIA Min 577px */r-titulo-formacion);
-    font-size: 2rem;
-    margin: .2rem;
+  .formacion-descripcion,
+  .formacion-descripcion-instituto{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    height: 15%;
   }
-
+  
 }

@@ -5,12 +5,136 @@
 .experiencia__subtitulo{
   color: var(--Font-color-titulo-secciones);
 }
+.experiencia_container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  width: 100%;
+}
+.experiencia__card{
+  background-color: #f5f8fa;
+  text-align: center;
+  margin: .3rem;
+  padding: .5rem;
+  width: 150px;
+  height: auto;
+  /* overflow: hidden; */
+  box-shadow: 2px 2px 5px #6a6e70;
+  border-radius: 5px;
+}
+.experiencia__card:hover{
+  transform: scale(1.5);
+  transition: all .8s;
+}
+.experiencia__img-container{
+  width: 100%;
+  margin: 0 auto 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-radius: 3px;
+}
+.alura-portfolio{
+  background-image: url(../assets/img/proyecto-alura-portfolio.jpg);
+}
+.alura-juego-ahorcado{
+  background-image: url(../assets/img/proyecto-alura-juegoahorcado.jpg);
+}
+.alura-juego-encriptador{
+  background-image: url(../assets/img/proyecto-alura-encriptador.jpg);
+}
+.alura-barberia{
+  background-image: url(../assets/img/proyecto-alura-barberia.jpg);
+}
+.calculadora{
+  background-image: url(../assets/img/proyecto-calculadora.jpg);
+}
+.fcc-tribute-page{
+  background-image: url(../assets/img/proyecto-tribute-page.jpg);
+}
+.fcc-survey-form{
+  background-image: url(../assets/img/proyecto-survey-form.jpg);
+}
+.fcc-product-landing-page{
+  background-image: url(../assets/img/proyecto-product-landing-page.jpg);
+}
+.fcc-technical-documentation{
+  background-image: url(../assets/img/proyecto-technical-documentation.jpg);
+}
+.fcc-personal-portfolio-webpage{
+  background-image: url(../assets/img/proyecto-personal-portfolio-webpage.jpg);
+}
 
+.experiencia-descripcion,
+.experiencia-descripcion-instituto,
+.experiencia__link-repositorio,
+.experiencia-tecnologias{
+  color: var(--Font-color-titulo-formacion);
+  font-size: .6rem;
+  height: 10%;
+}
 
+.experiencia-tecnologias{
+  border-radius: .3rem;
+}
+
+.experiencia__link-repositorio{
+  display: block;
+  margin-top: .5rem;
+  padding: .2rem;
+  border-radius: 5px;
+  background: var(--Bg-header-footer);
+  color: var(--Font-color-header-footer);
+  width: 100%;
+  text-decoration: none;
+}
+.experiencia__link-repositorio:hover{
+  background: #16a1f1;
+  color: #fff;
+  letter-spacing: .2rem;
+}
 
 /* MEDIA Min 577px */
 @media screen and (min-width: 577px){
   .experiencia__subtitulo{
     font-size: 3rem;
   }
+  .experiencia__card{
+    margin: 2.3rem;
+    width: 350px;
+    height: 485px;
+    padding: 1rem;
+  }
+  .experiencia__card:hover{
+    transform: scale(1.5);
+  }
+  .formacion-descripcion,
+  .formacion-descripcion-instituto{
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    height: 15%;
+  }
+  .experiencia__img-container{
+    width: 100%;
+    height: 217.36px;
+  }
+
+.experiencia-descripcion,
+.experiencia-descripcion-instituto,
+.experiencia__link-repositorio,
+.experiencia-tecnologias{
+  font-size: 1.5rem;
+}
+
+.experiencia__link-repositorio{
+  border-radius: 5px;
+  text-decoration: none;
+  line-height: 2rem;
+}
+
 }

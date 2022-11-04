@@ -13,6 +13,8 @@
   width: 100%;
 }
 .skills__card{
+
+  background-color: #fff;
   text-align: center;
   margin: .3rem;
   width: 50px;
@@ -24,6 +26,7 @@
   border-radius: 5px;
   padding-top: .5rem;
   transition: all .8s;
+  z-index: 15;
 }
 .skills__img{
   width: 50px;
